@@ -68,11 +68,23 @@ body {
 #bio {
     margin-top: 10px; /* ↓↓↓ المسافة فوق Bio */
 }
+#p{
+    margin-top: 5px; /* ↓↓↓ المسافة فوق Bio */
+}    /* ↓↓↓ المسافة فوق Bio */
 
 #news {
-    margin-top:10px; /* ↓↓↓ المسافة فوق Bio */
+    margin-top:5px; /* ↓↓↓ المسافة فوق Bio */
+}
+#Research_intersted {
+    margin-top:5px; /* ↓↓↓ المسافة فوق Bio */
+}
+#teaching ul {
+    line-height: 1.2; /* تأكد من استخدام هذه القيمة في كل الأماكن */
 }
 
+#teaching ul li {
+    margin-bottom: 4px; /* تقليل المسافة بين العناصر */
+}
 
 .info h3 {
     font-size: 20px;
@@ -114,8 +126,8 @@ body {
 
 /* Sections */
 section {
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 section h2 {
@@ -137,26 +149,29 @@ section p {
 section ul {
     list-style: disc inside;
     padding-left: 20px;
+    margin-bottom: 10px;
+    line-height: 1.2; /* حاول استخدام 1.2 بدلاً من 1.8 لتقليل التباعد */
 }
 
 section ul li {
-    margin-bottom: 16px;
+    margin-bottom: 10px; /* قلل المسافة بين العناصر */
     font-size: 17px;
-    line-height: 1.2;
+    line-height: 1.2; /* تأكد من أن هذا التعديل غير مكرر */
     color: #555;
     padding-bottom: 4px;
 }
 
-/* Contact Section */
 #contact ul {
-    list-style: none;
+    list-style: none; /* إزالة الرموز الافتراضية */
     padding-left: 0;
+    margin: 0;
+    line-height: 1.2; /* تقليل التباعد بين الأسطر */
 }
 
 #contact ul li {
-    margin-bottom: 20px;
-    line-height: 1.8;
-    padding-left: 10px;
+    margin-bottom: 8px; /* تقليل المسافة بين العناصر */
+    font-size: 16px; /* ضبط حجم الخط */
+    line-height: 1.2; /* ضبط التباعد بين الأسطر داخل li */
 }
 
 #contact ul li i {
@@ -165,7 +180,6 @@ section ul li {
     width: 20px;
     text-align: center;
 }
-
 /* Contact Label */
 .contact-list .label {
     font-weight: bold;
