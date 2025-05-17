@@ -86,6 +86,9 @@ body {
     margin-bottom: 4px; /* تقليل المسافة بين العناصر */
 }
 
+#awards {
+    margin-top:5px; /* ↓↓↓ المسافة فوق Bio */
+}
 .info h3 {
     font-size: 20px;
     font-weight: 300;
